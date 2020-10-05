@@ -1,4 +1,4 @@
-# 3717Project
+# Clear Council
 
 ### Team 
 - Gyeongmin Lee (A01051107)

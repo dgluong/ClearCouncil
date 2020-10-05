@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+COLORS
+Blue: #0075D4
+-->
+<resources>
+    <color name="colorPrimary">#0075D4</color>
+    <color name="colorPrimaryDark">#015EAA</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorTextSelection">#39A9DB</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorNavIcon">#FFFFFF</color>
+    <color name="colorNavText">#FFFFFF</color>
+    <color name="colorHint">#C3D6D6D6</color>
+    <color name="textCursor">#000000</color>
+    <color name="background_elevated">#F5F5F5</color>
+</resources>

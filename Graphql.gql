@@ -1,0 +1,12 @@
+type Comment {
+  voteID: Int!
+  title: String!
+  body: String!
+  likeCount: Int!
+}
+
+type Query {
+  allComments: [Comment!]
+  findCommentsByVoteId(voteID: Int!): [Comment!]
+}
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@drawable/button_submit"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="@string/submit"
+        android:textColor="@color/colorNavText"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/id_search_EditText" />
+
+    <EditText
+        android:id="@+id/id_search_EditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/background_elevated"
+        android:hint="@string/enter_comment"
+        android:inputType="textCapSentences|textMultiLine"
+        android:maxLength="2000"
+        android:maxLines="4"
+        android:paddingStart="12dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="12dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHighlight="@color/colorTextSelection"
+        android:textColorHint="@color/common_google_signin_btn_text_light_default"
+        android:textCursorDrawable="@drawable/color_cursor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/submit_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ListView
+        android:id="@+id/list_comments"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:elevation="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/id_search_EditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ListView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

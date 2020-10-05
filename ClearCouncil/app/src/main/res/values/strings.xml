@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Clear Council</string>
+    <string name="title_activity_template">Clear Council</string>
+
+    <!--Nav Bar Strings-->
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_search">Search</string>
+    <string name="title_council">Council Members</string>
+
+
+    <!-- Vote Card Strings -->
+    <string name="pass">Passed</string>
+    <string name="fail">Failed</string>
+    <string name="search_query_hint">Search using word, number, or name</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="comments">COMMENTS</string>
+    <string name="votedate">VoteDate</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="vote_number">Vote Number</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Description">Description</string>
+    <string name="submit">Submit</string>
+    <string name="enter_comment">Enter comment…</string>
+    <string name="app_logo">App logo</string>
+</resources>
